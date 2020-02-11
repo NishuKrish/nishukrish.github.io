@@ -259,6 +259,12 @@ h3 {
 
 
 /* ooooooooooooooooo MOBILE headerbanner oooooooooooooooooo */
+@media only screen and (max-width: 700px) {
+    .headerbanner {
+        background-attachment: scroll;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     h2 {
         font-size: 40px;
@@ -276,7 +282,6 @@ h3 {
         background-image: url("typingbackground.jpg");
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position: center;
         background-size: cover;
 }
     
