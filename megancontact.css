@@ -9,6 +9,7 @@ body {
 
 .topnav a.Meganhome {
     text-decoration: none;
+    color: black;
     font-family: 'Raleway', sans-serif;
     position: absolute;
     font-size: 20px;
@@ -203,11 +204,11 @@ form .message {
     height: 90px;
     max-width: 600px;
 }
-input {
+button {
     height: 45px;
 }
 
-form .submit {
+button.submit {
     background-color: white;
     border-color: transparent;
     color: gray;
@@ -219,7 +220,7 @@ form .submit {
     margin-top: 20px;
 }
 
-form .submit:hover {
+button.submit:hover {
     background-color: lightpink;
     transition: 0.4s;
     cursor: pointer;
@@ -235,7 +236,7 @@ form .submit:hover {
         margin-top: 0;
     }
     
-    form .submit {
+    button.submit {
         width: 190px;
         height: 50px;
     }
