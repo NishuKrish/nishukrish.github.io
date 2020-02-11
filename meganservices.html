@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="meganservices.css">
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Nanum+Gothic|Poppins:300|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    
+    <body>
+<!--
+        <div class="topnav">
+            <h1><a class="Meganhome"href="Meganhome.html">Megan Kang</a></h1>
+            <div class="reversefloat">
+                <a class="menu" href="Meganhome.html">Home</a>
+                <a class="menu" href="#">Services</a>
+                <a class="menu" href="#">Contact</a>
+            </div>
+        </div>
+-->
+        <section class="navbanner">
+        
+        <nav>
+            
+        <ul class="topnav" id="dropclick">
+            <h1><a class="Meganhome" href="Meganhome.html">Megan Kang</a></h1>
+        <li class="hiddenli"><a class="menu" href="#">Yo</a></li>
+        <div class="reversefloat">
+            <li><a class="menu" href="index.html">Home</a></li>
+        <li><a class="menu" href="meganservices.html">Services</a></li>
+        <li><a class="menu" href="megancontact.html">Contact</a></li>
+         <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li></div>
+        
+    </ul>
+
+</nav>
+        </section>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropclick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    
+        <section class="onlybanner">
+            <h2>Services</h2>
+            <p class="headerp">I offer a range of services, given that each person is in a different stage of the process and has unique strengths and weaknesses: </p>
+            
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="paper" src="paper.png">
+                    <h3>Unlimited Support</h3>
+                    <h4>$495</h4>
+                    <h5 class="additionalservice"><i>$245/additional essay</i></h5>
+                    <p class="service">Includes selecting prompts, figuring out which experiences to highlight, revisions, and proofreading</p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <img class="paper" src="paper.png">
+                    <h3>The Last Look</h3>
+                    <h4>$95</h4>
+                    <p class="service">Includes one round of editing on any essay, ideal as a “last set of eyes”</p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <img class="paper" src="paper.png">
+                    <h3>Hourly</h3>
+                    <h4>$95/hr</h4>
+                    <p class="service">Includes any of the previous services</p>
+                </div>
+            </div>
+         
+        </section>
+        
+        <a href="https://www.linkedin.com/in/megan-kang-6a2a4a38/" target="blank"><img src="linkedin.png" class="linkedin"></a>
+
+
+    </body>
+</html>

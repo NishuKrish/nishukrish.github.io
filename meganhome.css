@@ -1,0 +1,499 @@
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+.topnav a.Meganhome {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.topnav a.Meganhome:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+.topnav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbanner ul {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+
+.navbanner {
+    display: grid;
+    
+}
+
+
+ul.topnav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  
+}
+
+ul.topnav li a:hover
+{
+    color: lightgrey;
+    transition: color 0.3s ease;
+}
+
+
+.topnav .reversefloat {
+    float: right;
+}
+
+ul.topnav li {
+    list-style: none;
+    margin: 20px;
+    font-size: 17px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3px;
+}
+
+
+
+ul li.hiddenli {
+    opacity: 0;
+    cursor: default;
+}
+
+
+ul.topnav li.dropdown {
+    display: none;
+    font-size: 25px;
+}
+
+/*############ Mobile ############## */
+@media screen and (max-width: 550px) {
+    ul.topnav li:not(:nth-child(0)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdown {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdown {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+        background-color: white;
+        width: 100%;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline; 
+        float: none;
+        
+    }
+    
+    ul.topnav.responsive li.dropdown {
+        display: inline; 
+        float: none;
+        padding-top: 20px;
+        
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: center;
+    }
+    
+    ul.topnav.responsive li.hiddenli a {
+        opacity: 0;
+        cursor: default;
+    }
+    
+    .navbanner ul {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+
+    ul.topnav li {
+    list-style: none;
+    float: left;
+    }
+
+    ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 15px;
+    padding-right: 5px;
+    margin-top: -5px;
+    color: black;
+    }
+    
+    ul.topnav li a.menu {
+    display: block;
+    text-decoration: none;
+    min-height: 15px;
+    padding-right: 12em;
+    color: black;
+        
+    }
+
+    ul.topnav li a:hover {
+    color: lightgray;
+    }
+
+
+}
+ /* ######## end of mobile ####### */
+
+/*.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+h1 {
+    float: left;
+    font-size: 20px;
+    padding: 18px 16px;
+    margin: 0;
+}
+
+.topnav a.Meganhome {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topnav a.Meganhome:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+
+.topnav .reversefloat {
+    float: right;
+}
+
+/* Style the links inside the navigation bar */
+/*
+.topnav a.menu {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Change the color of links on hover */
+
+/*
+
+.topnav a.menu:hover {
+    color: lightgrey;
+    transition: 0.3s;
+}
+
+.topnav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* ooooooooooooooooo MOBILE nav oooooooooooooooooo */
+
+
+
+/* ################## end of nav bar ################### */
+
+.headerbanner {
+    background-image: url("typing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+/* ooooooooooooooooo MOBILE headerbanner oooooooooooooooooo */
+@media only screen and (max-width: 550px) {
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    .headerbanner {
+    background-image: url("typingbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+    
+}
+
+/* ################ end of headerbanner ################## */
+
+.aboutbanner {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: #f1f1f1;
+}
+
+img.meganprof {
+    border-radius: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.aboutbanner h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+/* ooooooooooooooooo MOBILE about oooooooooooooooooo */
+
+@media only screen and (max-width: 550px) {
+    .aboutbanner p {
+        font-size: 17px;
+    }
+    
+    img.meganprof {
+        width: 150px;
+    }
+    
+    
+}
+
+/* ################ end of aboutbanner ################# */
+
+.testimonialsbanner {
+    background-color: #404040;
+}
+
+.testimonialsbanner h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+img.quotations {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+p.testimonials {
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: -1px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+ul.collegeicons {
+    display: block;
+    text-align: center;
+    margin-left: -40px;
+    padding-bottom: 70px;
+    
+    
+}
+
+ul.collegeicons li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.collegeicons img {
+    display: block; 
+}
+
+.collegeicons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+img.nyu {
+    width: 60px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.yale {
+    width: 90px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.uchicago {
+    width: 170px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.ucla {
+    width: 90px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.uw {
+    width: 140px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.cal {
+    width: 80px;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+img.linkedin {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 2em;
+}
+
+img.linkedin:hover {
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+
+/* ooooooooooooooooo MOBILE testimonials oooooooooooooooooo */
+
+@media only screen and (max-width: 550px) {
+    
+img.nyu {
+    width: 40px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.yale {
+    width: 70px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.uchicago {
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.ucla {
+    width: 70px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.uw {
+    width: 110px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img.cal {
+    width: 60px;
+    display: inline-block;
+    margin: 20px;
+}
+
+}
+/* ################# end of testimonialsbanner ############### */
+
