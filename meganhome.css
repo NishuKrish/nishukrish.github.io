@@ -273,10 +273,11 @@ h3 {
     }
     
     .headerbanner {
-    background-image: url("typingbackground.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+        background-image: url("typingbackground.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
 }
     
 }
