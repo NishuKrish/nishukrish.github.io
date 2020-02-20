@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+.topnav a.Meganhome {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.topnav a.Meganhome:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+.topnav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbanner ul {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+
+.navbanner {
+    display: grid;
+    
+}
+
+
+ul.topnav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+ul.topnav li a:hover
+{
+    color: lightgrey;
+    transition: color 0.3s ease;
+}
+
+
+.topnav .reversefloat {
+    float: right;
+}
+
+ul.topnav li {
+    list-style: none;
+    margin: 20px;
+    font-size: 17px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3px;
+}
+
+
+
+ul li.hiddenli {
+    opacity: 0;
+    cursor: default;
+}
+
+
+ul.topnav li.dropdown {
+    display: none;
+    font-size: 25px;
+}
+
+/*############ Mobile ############## */
+@media screen and (max-width: 550px) {
+    ul.topnav li:not(:nth-child(0)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdown {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdown {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+        background-color: white;
+        width: 100%;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline; 
+        float: none;
+        
+    }
+    
+    ul.topnav.responsive li.dropdown {
+        display: inline; 
+        float: none;
+        padding-top: 20px;
+        
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: center;
+    }
+    
+    ul.topnav.responsive li.hiddenli a {
+        opacity: 0;
+        cursor: default;
+    }
+    
+    .navbanner ul {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+
+    ul.topnav li {
+    list-style: none;
+    float: left;
+    }
+
+    ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 15px;
+    padding-right: 5px;
+    margin-top: -5px;
+    color: black;
+    }
+    
+    ul.topnav li a.menu {
+        display: block;
+        text-decoration: none;
+        min-height: 15px;
+        margin-right: 12em;
+        color: black;
+        
+    }
+
+    ul.topnav li a:hover {
+    color: lightgray;
+    }
+
+
+}
+
+
+
+/* ############# end of navbar ############## */
+.onlybanner {
+    background-color: #404040;
+    margin: 0;
+}
+
+.onlybanner h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 1.5em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.onlybanner h3{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+}
+
+.onlybanner button {
+    width: 200px;
+    height: 70px;
+    font-family: 'Nanum Gothic';
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1.5px;
+    background-color: #404040;
+    margin-top: 5em;
+    text-decoration: none;
+}
+
+.onlybanner button a {
+    color: white;
+}
+
+.onlybanner button a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.onlybanner button a:hover {
+    color: white;
+    text-decoration: none;
+}
+.onlybanner button:hover {
+    text-decoration: none;
+    background-color: darkgray;
+    transition: 0.4s;
+}
+
+/* ######### end of mobile ####### */
+
+img.linkedin {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    margin-bottom: 1em;
+    
+}
+
+img.linkedin:hover {
+    opacity: 0.3;
+    transition: 0.3s;
+}

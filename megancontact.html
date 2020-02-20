@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="meganothercontact.css">
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Nanum+Gothic|Poppins:300|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    
+    <body>
+
+        <section class="navbanner">
+        
+        <nav>
+            
+        <ul class="topnav" id="dropclick">
+            <h1><a class="Meganhome" href="index.html">Megan Kang</a></h1>
+        <li class="hiddenli"><a class="menu" href="#">Yo</a></li>
+        <div class="reversefloat">
+            <li><a class="menu" href="index.html">Home</a></li>
+        <li><a class="menu" href="meganservices.html">Services</a></li>
+        <li><a class="menu" href="megancontact.html">Contact</a></li>
+         <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li></div>
+        
+        </ul>
+
+        </nav>
+        </section>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropclick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        
+    <section class="onlybanner">
+        <h2>Contact</h2>
+        <h3>Get in touch to discuss which plan fits your needs!</h3><button><a href="mailto:megankang7@gmail.com">Email me!</a></button>
+    
+    </section>
+        
+    <a href="https://www.linkedin.com/in/megan-kang-6a2a4a38/" target="blank"><img src="linkedin.png" class="linkedin"></a>
+        
+        
+    </body>
+    
+</html>
