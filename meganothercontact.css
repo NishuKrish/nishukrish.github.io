@@ -33,12 +33,10 @@ body {
     margin: 0;
     overflow: hidden;
     float: right;
-    
 }
 
 .navbanner {
     display: grid;
-    
 }
 
 
@@ -48,8 +46,7 @@ ul.topnav li a {
   font-weight: 500;
 }
 
-ul.topnav li a:hover
-{
+ul.topnav li a:hover {
     color: lightgrey;
     transition: color 0.3s ease;
 }
@@ -225,6 +222,7 @@ ul.topnav li.dropdown {
     color: white;
     text-decoration: none;
 }
+
 .onlybanner button:hover {
     text-decoration: none;
     background-color: darkgray;
@@ -238,7 +236,7 @@ img.linkedin {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10em;
+    margin-top: 15em;
     margin-bottom: 1em;
     
 }
