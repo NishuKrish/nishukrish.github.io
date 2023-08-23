@@ -1,10 +1,10 @@
+
 /* General styling */
 body {
-    font-family: 'Raleway', sans-serif; /* Using the Raleway font from Google Fonts */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    line-height: 1.6; /* Improves readability */
 }
 
 .row {
@@ -23,72 +23,38 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
-    transition: all 0.3s ease; /* Adding transition for smoother hover effect */
 }
 
 .package-icon {
     max-width: 100px;
     height: auto;
-    margin: 20px auto; /* Increasing the top and bottom margin for better spacing */
+    margin: 0 auto;
     display: block;
 }
 
 .package-title {
     color: #333;
     margin: 10px 0;
-    font-weight: 600; /* Making the title slightly bold */
 }
 
 .package-price {
-    color: #555;
+    color: #666;
     margin: 10px 0;
     font-weight: bold;
-    font-size: 1.2em; /* Increasing the font size of the price for emphasis */
 }
 
 .package-description {
     color: #777;
     font-size: 0.9em;
-    margin-bottom: 20px; /* Adding a bottom margin for better spacing */
 }
 
-/* Hover effect for columns */
+/* Optional: Add hover effect to columns */
 .col-sm-4:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
 
-/* Additional styles for a polished look */
-h1, h3, h4 {
-    font-family: 'Poppins', sans-serif; /* Using the Poppins font for headings */
-}
-
-h1 {
-    font-size: 2em;
-    color: #444;
-}
-
-h3, h4 {
-    margin-top: 20px; /* Adding top margin for better spacing */
-}
-
-/* Style for the top navigation banner */
-.navbanner {
-    background-color: #333;
-    color: #fff;
-    padding: 15px 0;
-}
-
-.navbanner a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-}
-
-.navbanner a:hover {
-    background-color: #555;
-}
 
 
 
