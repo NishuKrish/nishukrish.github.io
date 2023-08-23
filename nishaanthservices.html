@@ -1,51 +1,98 @@
-<div class="row">
-    <!-- Freshman Foundation Package -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Freshman Foundation</h3>
-        <h4 class="package-price">$200/month</h4>
-        <p class="package-description">Understanding the basics of college prep and early skill-building. Personalized study plans, and monthly progress evaluations.</p>
-    </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="meganservices.css">
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Nanum+Gothic|Poppins:300|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    
+    <body>
 
-    <!-- Sophomore Success Package -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Sophomore Success</h3>
-        <h4 class="package-price">$250/month</h4>
-        <p class="package-description">Refine study techniques, begin exploring potential college majors, and early test preparation.</p>
-    </div>
+        <section class="navbanner">
+            <nav>
+                <ul class="topnav" id="dropclick">
+                    <h1><a class="Meganhome" href="index.html">Megan Kang</a></h1>
+                    <li class="hiddenli"><a class="menu" href="#">Yo</a></li>
+                    <div class="reversefloat">
+                        <li><a class="menu" href="index.html">Home</a></li>
+                        <li><a class="menu" href="nishaanthservices.html">Services</a></li>
+                        <li><a class="menu" href="nishaanthcontact.html">Contact</a></li>
+                        <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section> 
 
-    <!-- Junior Journey Package -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Junior Journey</h3>
-        <h4 class="package-price">$300/month</h4>
-        <p class="package-description">Focused test preparation, college list creation, and personalized strategies to boost college applications.</p>
-    </div>
-</div>
+        <div class="row">
+            <!-- Freshman Foundation Package -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Freshman Foundation</h3>
+                <h4 class="package-price">$200/month</h4>
+                <p class="package-description">Understanding the basics of college prep and early skill-building. Personalized study plans, and monthly progress evaluations.</p>
+            </div>
 
-<div class="row">
-    <!-- Senior Application Package -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Senior Application Package</h3>
-        <h4 class="package-price">$999/one-time</h4>
-        <p class="package-description">Guidance on college applications, essays, and finalizing college list. Ensuring a seamless transition to college life.</p>
-    </div>
+            <!-- Sophomore Success Package -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Sophomore Success</h3>
+                <h4 class="package-price">$250/month</h4>
+                <p class="package-description">Refine study techniques, begin exploring potential college majors, and early test preparation.</p>
+            </div>
 
-    <!-- Last Look -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Last Look</h3>
-        <h4 class="package-price">$399/one-time</h4>
-        <p class="package-description">Final review of your application, essay feedback, and overall readiness check for college submissions.</p>
-    </div>
+            <!-- Junior Journey Package -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Junior Journey</h3>
+                <h4 class="package-price">$300/month</h4>
+                <p class="package-description">Focused test preparation, college list creation, and personalized strategies to boost college applications.</p>
+            </div>
+        </div>
 
-    <!-- Individual tutoring -->
-    <div class="col-sm-4">
-        <img class="package-icon" src="paper.png">
-        <h3 class="package-title">Individual Tutoring</h3>
-        <h4 class="package-price">$60/hour</h4>
-        <p class="package-description">Personalized 1-on-1 tutoring on subjects or areas you need help with, ensuring academic success.</p>
-    </div>
-</div>
+        </div>
+
+        <div class="row">
+           <!-- Senior Application Package -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Senior Application Package</h3>
+                <h4 class="package-price">$999/one-time</h4>
+                <p class="package-description">Guidance on college applications, essays, and finalizing college list. Ensuring a seamless transition to college life.</p>
+            </div>
+
+            <!-- Last Look -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Last Look</h3>
+                <h4 class="package-price">$399/one-time</h4>
+                <p class="package-description">Final review of your application, essay feedback, and overall readiness check for college submissions.</p>
+            </div>
+
+            <!-- Individual tutoring -->
+            <div class="col-sm-4">
+                <img class="package-icon" src="paper.png">
+                <h3 class="package-title">Individual Tutoring</h3>
+                <h4 class="package-price">$60/hour</h4>
+                <p class="package-description">Personalized 1-on-1 tutoring on subjects or areas you need help with, ensuring academic success.</p>
+            </div> 
+
+        </div>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropclick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+    </body>
+</html>
